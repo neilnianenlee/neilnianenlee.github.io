@@ -1,0 +1,73 @@
+       <div class="container">
+                <!--PORTFOLIO HOLDER-->
+                <div class="row" id="primary">
+                    <!--PORTFOLIO CONTENT-->
+                    <div id="content" class="col-sm-12">
+                        <div class="post card">
+                            <!--PORTFOLIO IMAGE SLIDER-->
+                            <div class="post-image">
+        
+                                <!-- SLIDER STRUCTURE -->
+                                <div id="clients-slider"
+                                     class="swiper-container swiper-container-portfolios">
+                                    <div class="swiper-wrapper">
+                                        <!-- SLIDE ONE -->
+                                        <div class="swiper-slide">
+                                            <img class="img-responsive" alt="demo" src="../images/proj/arduino/therm.jpg">
+                                        </div>
+        
+                                        <!-- SLIDE TWO -->
+                                        <div class="swiper-slide">
+                                            <img class="img-responsive" alt="demo" src="../images/proj/arduino/therm-calcs.png">
+                                        </div>
+        
+                                        <!-- SLIDE THREE -->
+                                        <div class="swiper-slide">
+                                            <img class="img-responsive" alt="demo" src="../images/proj/arduino/them-read.jpg">
+                                        </div>
+                                    </div>
+                                    <!-- ADD PAGINATION -->
+                                    <div class="swiper-pagination swiper-pagination-portfolios"></div>
+                                </div>
+        
+                            </div>
+        
+                            <!--PORTFOLIO TITLE AND DETAILS-->
+                            <header>
+                                <h2>Arduino Thermometer
+                                    <time datetime="2045-08-16">September 9, 2018</time>
+                                </h2>
+                                <hr>
+                            </header>
+                            <!--BODY-->
+                            <div class="post-body">
+                                <h3>Project Details</h3>
+                                <p>
+                                    Built as an extension of starter kit projects 03 and 05, I wanted to use the motor as a
+                                    gauge for ambient temperature. 
+                                </p>
+        
+                                <h3>Reflection on the Project</h3>
+                                <p>
+                                    First, since temperature sensor was digital and semiconductor (I’m not too familiar with the theory), 
+                                    reversing the direction of the sensor ended up heating up the sensor 
+                                    (and possibly damaging the sensor and burning my thumb and finger). <br>
+                                    Secondly, if temperature sensor readings were read quickly (every 15 milliseconds), 
+                                    then the temperature sensor jumps from ambient to motor load temperature and 
+                                    repeats after the temperature sensors read ambient temperature. 
+                                    The solution was to increase the delay of the readings so the motor load would not affect the 
+                                    temperature readings.
+                                </p>       
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+
+
+
+
+<!--==========================================
+                  BACK TO HOME
+===========================================-->
+<div class="back-button"><span><i class="fas fa-home"></i></span></div>
