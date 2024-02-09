@@ -470,13 +470,13 @@
                                     <!-- <div class="skill-bar-percent">90%</div> -->
                                 </div>
                                 <!-- THIRD SKILL BAR  -->
-                                <div class="skillbar" data-percent="65%">
+                                <div class="skillbar" data-percent="85%">
                                     <div class="skillbar-title"><span>Creativity</span></div>
                                     <div class="skillbar-bar"></div>
                                     <!-- <div class="skill-bar-percent">90%</div> -->
                                 </div>
                                 <!-- FOURTH SKILL BAR  -->
-                                <div class="skillbar" data-percent="90%">
+                                <div class="skillbar" data-percent="70%">
                                     <div class="skillbar-title"><span>Dedication</span></div>
                                     <div class="skillbar-bar"></div>
                                     <!-- <div class="skill-bar-percent">90%</div> -->
@@ -554,11 +554,31 @@
                       </div>
                       <!-- TIMELINE PARAGRAPH -->
                       <p>
-                          TODO
-
+                          Began with manually testing 50 infusion pumps interfacing with a cloud software to ensure both
+                          the infusion pumps and the cloud software interact as expected in an environment of significant
+                          concurrent hardware usage. During manual testing, there were scenarios that caused the cloud
+                          software to behave unexpectedly which resulted in a triage for the bug. The bug occurred when
+                          an event is scheduled in the future, but the event is cancelled prior to the deadline. The same event
+                          can be scheduled for the same time, but the resulting behavior is that the new scheduled event gets
+                          cancelled on the deadline as opposed to the event being rescheduled and allowed. The lack of knowledge
+                          as to why this could happen led me to pursue a Masters in Computer Science.
                       </p>
                       <p>
-                          TODO
+                          Helped develop a few internal tools, namely one that pulls multiple data sources, processes them and
+                          stores them on a CouchBase database. The collection, data processing and data pushing were done in 
+                          NodeJS. Also helped develop the frontend using AngularJS in such a way that the large dataset could be loaded
+                          and displayed in a timely manner (from a few minutes to a few seconds, and that the UI was actually
+                          interacted as opposed to the browser freezing up and running out of memory). 
+                      </p>
+                      <p> 
+                          Devised and executed a manual test protocol as a response to a question by the FDA review of a 510K submission related
+                          to Quality of Service. Test protocol consisted of ensuring the key functionalities operate within software requirements 
+                          under various network conditions. The test resulted in the determination of the minimum speed required 
+                          for the next-gen product, which became the specification to the customers as the minimum supported network bandwidth speed.
+                          It was particularly exciting to figure out the way of verifying the network speed of the test network, as it allowed me
+                          to apply the knowledge I gained from grad school. I was able to devise a way to verify the advertised network speed by
+                          having two machines on the same network, one serving as the server and the other the client, and transferring data
+                          between them using iPerf.
                       </p>
                       <!-- BUTTON TRIGGER MODAL -->
                       <a href="#" class="modal-dot" data-toggle="modal" data-target="#myModal-5">
